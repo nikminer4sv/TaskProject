@@ -43,7 +43,7 @@ To start server run following file: ***Server/Server/bin/Release/netcoreapp3.0/w
 
 *You can make following delete request using cURL to delete cards using their ids:* 
 
-***\curl.exe -X 'DELETE' 'http://{server address}/api/card/delete?ids={card id}&ids={card id}...' -H 'accept: */*' -H 'Content-Type: text/plain'***
+***curl -X 'DELETE' 'http://{server address}/api/card/delete?ids={card id}&ids={card id}...' -H 'accept: */*' -H 'Content-Type: text/plain'***
 
 <hr>
 
@@ -58,7 +58,7 @@ To start server run following file: ***Server/Server/bin/Release/netcoreapp3.0/w
 
 *You can make following put request using cURL to change card title using card id:* 
 
-curl -X 'PUT' 'http://{server address}/api/card/simpleupdate?id={card id}&title={new card title}' -H "Content-Type: text/plain" -H "Content-Length: 0"
+***curl -X 'PUT' 'http://{server address}/api/card/simpleupdate?id={card id}&title={new card title}' -H "Content-Type: text/plain" -H "Content-Length: 0"***
 
 - http://{server address}/api/card/fullupdate - change card title and image using card id.
 
@@ -70,7 +70,7 @@ curl -X 'PUT' 'http://{server address}/api/card/simpleupdate?id={card id}&title=
 
 *You can make following put request using cURL to change card title and image using card id:* 
 
-curl -X 'PUT' 'http://{server address}/api/card/fullupdate?id={card id}&title={card title}' -H 'accept: */*' -H 'Content-Type: multipart/form-data' -F 'image=@"{image path}'
+***curl -X 'PUT' 'http://{server address}/api/card/fullupdate?id={card id}&title={card title}' -H 'accept: */*' -H 'Content-Type: multipart/form-data' -F 'image=@"{image path}'***
 
 <hr>
 
