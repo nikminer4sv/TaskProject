@@ -6,6 +6,9 @@ Window's application:
 
 ![preview](https://user-images.githubusercontent.com/58385485/157473364-d9b9ca16-6b2e-42df-b165-0fc53858c648.jpg)
 ## Server
+
+_Server is based on .NET Core 3.0_
+
 To start server run following file: ***Server/Server/bin/Release/netcoreapp3.0/win-x64/Server.exe***
 
 ### Server api
@@ -77,6 +80,8 @@ To start server run following file: ***Server/Server/bin/Release/netcoreapp3.0/w
 <hr>
 
 ## Client
+
+_Client is based on .NET Framework 4.7_
 
 To start client run following file: ***Client/Client/bin/Debug/Client.exe***
 
