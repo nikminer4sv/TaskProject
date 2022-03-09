@@ -1,0 +1,47 @@
+C:\Users\User\Desktop\C++ (БГУ)\C++\Client\Client\bin\Debug\Client.exe.config
+C:\Users\User\Desktop\C++ (БГУ)\C++\Client\Client\bin\Debug\Client.exe
+C:\Users\User\Desktop\C++ (БГУ)\C++\Client\Client\bin\Debug\Client.pdb
+C:\Users\User\Desktop\C++ (БГУ)\C++\Client\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\C++ (БГУ)\C++\Client\Client\obj\Debug\Client.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\C++ (БГУ)\C++\Client\Client\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\C++ (БГУ)\C++\Client\Client\obj\Debug\App.g.cs
+C:\Users\User\Desktop\C++ (БГУ)\C++\Client\Client\obj\Debug\Client_MarkupCompile.cache
+C:\Users\User\Desktop\C++ (БГУ)\C++\Client\Client\obj\Debug\Client_MarkupCompile.lref
+C:\Users\User\Desktop\C++ (БГУ)\C++\Client\Client\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\C++ (БГУ)\C++\Client\Client\obj\Debug\Client.g.resources
+C:\Users\User\Desktop\C++ (БГУ)\C++\Client\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\User\Desktop\C++ (БГУ)\C++\Client\Client\obj\Debug\Client.csproj.GenerateResource.cache
+C:\Users\User\Desktop\C++ (БГУ)\C++\Client\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\C++ (БГУ)\C++\Client\Client\obj\Debug\Client.exe
+C:\Users\User\Desktop\C++ (БГУ)\C++\Client\Client\obj\Debug\Client.pdb
+C:\Users\User\Desktop\C++ (БГУ)\C++\Client\Client\obj\Debug\CreateCardWindow.g.cs
+C:\Users\User\Desktop\C++ (БГУ)\C++\Client\Client\obj\Debug\CreateCardWindow.baml
+C:\ClientCS\Client\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+C:\ClientCS\Client\Client\obj\Debug\Client.csproj.SuggestedBindingRedirects.cache
+C:\ClientCS\Client\Client\obj\Debug\CreateCardWindow.g.cs
+C:\ClientCS\Client\Client\obj\Debug\MainWindow.g.cs
+C:\ClientCS\Client\Client\obj\Debug\App.g.cs
+C:\ClientCS\Client\Client\obj\Debug\Client_MarkupCompile.cache
+C:\ClientCS\Client\Client\obj\Debug\Client_MarkupCompile.lref
+C:\ClientCS\Client\Client\obj\Debug\Client.exe
+C:\ClientCS\Client\Client\obj\Debug\Client.pdb
+C:\ClientCS\Client\Client\bin\Debug\Client.exe.config
+C:\ClientCS\Client\Client\bin\Debug\Client.exe
+C:\ClientCS\Client\Client\bin\Debug\Client.pdb
+C:\ClientCS\Client\Client\bin\Debug\MaterialDesignColors.dll
+C:\ClientCS\Client\Client\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\ClientCS\Client\Client\bin\Debug\MaterialDesignColors.pdb
+C:\ClientCS\Client\Client\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\ClientCS\Client\Client\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\ClientCS\Client\Client\obj\Debug\App.baml
+C:\ClientCS\Client\Client\obj\Debug\CreateCardWindow.baml
+C:\ClientCS\Client\Client\obj\Debug\MainWindow.baml
+C:\ClientCS\Client\Client\obj\Debug\Client.g.resources
+C:\ClientCS\Client\Client\obj\Debug\Client.Properties.Resources.resources
+C:\ClientCS\Client\Client\obj\Debug\Client.csproj.GenerateResource.cache
+C:\ClientCS\Client\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\ClientCS\Client\Client\obj\Debug\Client.csproj.CopyComplete
+C:\ClientCS\Client\Client\obj\Debug\CustomCard.g.cs
+C:\ClientCS\Client\Client\obj\Debug\CustomCard.baml
+C:\ClientCS\Client\Client\bin\Debug\Newtonsoft.Json.dll
+C:\ClientCS\Client\Client\bin\Debug\Newtonsoft.Json.xml

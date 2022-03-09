@@ -1,0 +1,2 @@
+C:\ClientCS\Client\Client\obj\Release\Client.csproj.AssemblyReference.cache
+C:\ClientCS\Client\Client\obj\Release\Client.csproj.SuggestedBindingRedirects.cache
