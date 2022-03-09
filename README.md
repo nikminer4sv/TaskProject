@@ -8,7 +8,9 @@ Window's application:
 ## Server
 To start server run following file: ***Server/Server/bin/Release/netcoreapp3.0/win-x64/Server.exe***
 
-**--------Server api--------**
+### Server api
+
+<hr>
 
 **(HttpGet)**
 
