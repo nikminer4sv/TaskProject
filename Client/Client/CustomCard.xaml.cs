@@ -21,7 +21,7 @@ namespace Client
     public partial class CustomCard : UserControl
     {
 
-        public bool IsChecked = false;
+        public bool isChecked = false;
         public string id;
         public string imagePath;
 
@@ -37,7 +37,7 @@ namespace Client
 
         private void CardCheckBox_Click(object sender, RoutedEventArgs e)
         {
-            IsChecked = IsChecked == false ? true : false;
+            isChecked = isChecked == false ? true : false;
         }
 
         public string GetTitle()
