@@ -23,7 +23,7 @@ namespace Client
     public partial class CreateCardWindow : Window
     {
 
-        private bool _IsUpdating = false;
+        private bool isUpdating = false;
         private string startPath;
         private string id;
 
@@ -39,7 +39,7 @@ namespace Client
             TitleTextBox.Text = title;
             PathTextBox.Text = path;
             startPath = path;
-            _IsUpdating = true;
+            isUpdating = true;
             CreateBtn.Content = "Update";
             this.Title = "Update";
         }
