@@ -77,7 +77,7 @@ namespace Client
                     return;
                 }
 
-                if (_IsUpdating == false)
+                if (isUpdating == false)
                 {
 
                     using (var httpClient = new HttpClient())
