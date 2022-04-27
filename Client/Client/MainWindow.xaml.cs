@@ -124,7 +124,7 @@ namespace Client
 
             numberOfCards += 1;
 
-            if (_numberOfColumns * 2 < numberOfCards)
+            if (numberOfColumns * 2 < numberOfCards)
             {
                 ColumnDefinition cDefenition = new ColumnDefinition();
                 cDefenition.Width = GridLength.Auto;
