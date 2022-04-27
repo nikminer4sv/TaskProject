@@ -17,8 +17,8 @@ namespace Client
     public partial class MainWindow : Window
     {
 
-        private int _numberOfCards = 0;
-        private int _numberOfColumns = 1;
+        private int numberOfCards = 0;
+        private int numberOfColumns = 1;
         private string cardsJSON = "";
 
         public static MainWindow instance;
@@ -86,7 +86,7 @@ namespace Client
 
             this.cardsJSON = cardsJSON;
 
-            int temp = _numberOfCards;
+            int temp = numberOfCards;
             for (int i = 0; i < temp; i++)
             {
                 var element = CardsGrid.Children.OfType<CustomCard>().FirstOrDefault(c => c.Name == "Card"+i);
@@ -94,7 +94,7 @@ namespace Client
                 if (element != null)
                 {
                     CardsGrid.Children.Remove(element);
-                    _numberOfCards -= 1;
+                    numberOfCards -= 1;
                 }
             }
 
@@ -107,7 +107,6 @@ namespace Client
                 {
                     DownloadImage(card);
                     CreateCardInGrid(card.Id, card.Title, "/Images/" + card.ImageUri);
-                    
                 }
             }
 
@@ -119,13 +118,13 @@ namespace Client
             imagePath = Environment.CurrentDirectory + imagePath;
 
             CustomCard card = new CustomCard(id, title, imagePath);
-            card.Name = "Card" + _numberOfCards;
+            card.Name = "Card" + numberOfCards;
             CardsGrid.Children.Add(card);
             RegisterName(card.Name, card);
 
-            _numberOfCards += 1;
+            numberOfCards += 1;
 
-            if (_numberOfColumns * 2 < _numberOfCards)
+            if (_numberOfColumns * 2 < numberOfCards)
             {
                 ColumnDefinition cDefenition = new ColumnDefinition();
                 cDefenition.Width = GridLength.Auto;
@@ -133,8 +132,8 @@ namespace Client
             }
 
             int row, col;
-            row = _numberOfCards % 2 == 0 ? 1 : 0;
-            col = (_numberOfCards + 1) / 2;
+            row = numberOfCards % 2 == 0 ? 1 : 0;
+            col = (numberOfCards + 1) / 2;
 
             Grid.SetColumn(card, col);
             Grid.SetRow(card, row);
@@ -163,11 +162,11 @@ namespace Client
 
             List<string> ids = new List<string>();
 
-            int temp = _numberOfCards;
+            int temp = numberOfCards;
             for (int i = 0; i < temp; i++)
             {
                 var element = CardsGrid.Children.OfType<CustomCard>().FirstOrDefault(c => c.Name == "Card"+i);
-                if (element.IsChecked)
+                if (element.isChecked)
                 {
                     ids.Add(element.id);
                 }
